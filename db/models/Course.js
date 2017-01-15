@@ -38,6 +38,9 @@ var CourseSchema = new Schema({
     },
     intro_video: {
         type: String
+    },
+    value: {
+        type: Number, min: 0
     }
 });
 
